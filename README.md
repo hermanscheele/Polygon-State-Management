@@ -37,3 +37,21 @@ A React-based web application for interacting with GeoJSON polygon sets on a map
 3. Run the webpage on localhost
 
    npm run dev
+
+
+## Assumptions for the task
+
+Polygon Data: Polygons provided are GeoJSON FeatureCollections.
+
+
+Unique Polygon IDs: Used polygon indices as identifiers since GeoJSON features didn't provide unique IDs.
+
+
+Persistence: Modifications are only persisted in memory, resetting after page reload.
+
+
+UI Simplicity: Opted for a simple and intuitive UI using MUI to allow quick comprehension and interaction.
+
+
+Dynamic Tab Title: Tab title dynamically updates to reflect the currently selected polygon solution.
+
